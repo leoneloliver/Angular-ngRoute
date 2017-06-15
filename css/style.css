@@ -1,0 +1,131 @@
+body{
+  font-family: verdana;
+  margin:0;
+}
+.list {
+    
+    height: 218px;
+    margin-top: 20px;
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    box-shadow: 1px 2px 3px #dedede;
+}
+.container {
+    display: grid;
+    grid-gap: 10px;	
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    
+}
+.thumbnail img {
+    width: 100px;
+    border: 3px solid #ffa500;
+     box-sizing: border-box;
+}
+.list:hover .thumbnail img {
+    border: 3px solid #ff901e;
+     box-sizing: border-box;
+}
+.list:hover {
+    border: 1px solid #ff901e;
+     box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+.price {
+    color: #ffa700;
+    font-weight: bold;
+}
+h5 {
+    padding: 0;
+    margin: 8px 0;
+    font-size: 11px;
+}
+select{
+    width: 370px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #0b2646;
+}
+.age {
+    font-size: 10px;
+    float: left;
+    width: 16px;
+    margin-right: 10px;
+    background: orange;
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+}
+.list_price {
+    font-size: 13px;
+}
+.logo{
+  width: 200px;
+}
+.header {
+    padding: 10px;
+    background: #eaeaea;
+    text-align: center;
+}
+.content{
+  margin: 12px;
+  margin-top: 158px;
+}
+#top {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+     margin-bottom: 74px; 
+    margin-top: -158px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 3px 5px #f1f1f1;
+}
+.hint{
+  margin-left:20px;
+  width: 40%;
+  float:left;
+}
+.desc {
+    position: absolute;
+    width: 268px;
+    height: 165px;
+    background: #fff;
+    margin-top: -165px;
+    font-size: 12px;
+    opacity: 0.9;
+    padding: 14px;
+    display: none;
+}
+.plus{
+  text-align: right;
+  margin-top: -15px
+}
+.nf:hover .desc{
+  display: block;
+}
+.desc:hover{
+  display: block;
+}
+.container {
+    padding: 12px;
+    margin-top: 158px;
+}
+.star img{
+  height: 15px;
+  float: right;
+}
+
