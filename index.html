@@ -17,7 +17,6 @@
       </div>
     </div>
     <div class='container'>
-      
       <a ng-repeat="house in houses | limitTo:qtdHouse | orderBy:selectedOrder">
         <div class="list">
           <span class="age"> {{house.age}}</span> <!-- {{$index + 1}} --> 
@@ -49,11 +48,8 @@
             <div class="desc">{{house.about}}</div>
             <div class="plus"> + </div>
           </div>
-          
         </div>
       </a> 
     </div>
-  
   </body>
-
 </html>
